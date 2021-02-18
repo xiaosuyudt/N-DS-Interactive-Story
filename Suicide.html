@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second Takeshi</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+        body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("suicide.gif");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    </style>
+    
+
+</head>
+
+
+<body>
+	
+    <!-- <audio autoplay loop> 
+        <source src="Women1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio> -->
+
+<h2>“Is that all you have?” 
+    <br>
+    <br>
+    Her voice was innocent, but it cut me to the quick.
+    <br>
+    <br>
+    It was then I myself determined, this time as a reality, to kill myself. 
+    <br>
+    <br>
+    We threw ourselves into the sea at Kamakura that night.
+    <br>
+    <br>
+    We entered the water together.  </h2>
+
+
+
+
+
+<div class="bg"></div>
+
+<a href="end.html" class="buttonEnd">The End</a>
+<!-- <a href="SecondTakeshi.html" class="buttonPrev">Previous</a> -->
+
+
+<audio autoplay>
+    <source src="sea.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio>
+
+	<script >
+		function widthHeight(){
+			document.getElementById("widthheight").innerHTML = ("w" + window.innerWidth + "______ H:" + window.innerHeight);
+			//everytime the window is refreshed, get the (function widthHeight) value
+			//everytime the window is loaded, the default window size is the value of (function widthHeight)
+
+		}
+			window.onresize = widthHeight;
+			window.onload = widthHeight;
+	</script>
+	<script src="main.js"></script>
+
+</body>
+</html>

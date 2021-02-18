@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second Takeshi</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+	
+<div class="imgbox">
+    <img class="center-fit" src='7.jpg'>
+</div>
+
+
+
+<a href="SecondWomen1.html" class="buttonNext">Meet Tsunedo</a>
+<a href="SecondTakeshi.html" class="buttonPrev">Previous</a>
+
+
+<audio autoplay>
+    <source src="Jiangning 2.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio>
+
+	<script >
+		function widthHeight(){
+			document.getElementById("widthheight").innerHTML = ("w" + window.innerWidth + "______ H:" + window.innerHeight);
+			//everytime the window is refreshed, get the (function widthHeight) value
+			//everytime the window is loaded, the default window size is the value of (function widthHeight)
+
+		}
+			window.onresize = widthHeight;
+			window.onload = widthHeight;
+	</script>
+	<script src="main.js"></script>
+
+</body>
+</html>

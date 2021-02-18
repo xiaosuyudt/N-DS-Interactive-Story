@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second Takeshi</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+        body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Women1.gif");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    </style>
+    
+
+</head>
+
+
+<body>
+	
+    <audio autoplay loop> 
+        <source src="Women1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio>
+
+<h2>I went one day alone to a cafe on the Ginza. 
+    <br>
+    <br>
+    I had only ten yen on me. 
+    <br>
+    <br>
+    I said with a smile to the hostess who sat beside me.
+    <br> 
+    <br>
+    “All I’ve got is ten yen. Consider yourself warned.”
+    <br>
+    <br>
+    “You needn’t worry.”
+    <br>
+    <br>
+    She spoke with a trace of a Kansai accent.
+    <br>
+    <br>
+    It was strange how she calmed my agitation with those few words. </h2>
+
+
+
+<a href="Tsunedo.html" class="buttonNext">Leave with Tsunedo</a>
+
+<div class="bg"></div>
+
+
+<a href="SecondPage5.html" class="buttonPrev">Previous</a>
+
+
+<!-- <audio autoplay>
+    <source src="Jiangning 2.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio> -->
+
+	<script >
+		function widthHeight(){
+			document.getElementById("widthheight").innerHTML = ("w" + window.innerWidth + "______ H:" + window.innerHeight);
+			//everytime the window is refreshed, get the (function widthHeight) value
+			//everytime the window is loaded, the default window size is the value of (function widthHeight)
+
+		}
+			window.onresize = widthHeight;
+			window.onload = widthHeight;
+	</script>
+	<script src="main.js"></script>
+
+</body>
+</html>

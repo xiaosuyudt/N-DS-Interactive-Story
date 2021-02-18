@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second Takeshi</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+    </style>
+    
+
+</head>
+
+
+<body>
+
+
+    <a href="Suicide.html" class="buttonSuicide">Commit Suicide</a>
+
+    
+    <div class="imgbox">
+        <img class="center-fit" src='10.jpg'>
+    </div>
+
+
+<a href="TsunedoPt2.html" class="buttonPrev">Previous</a>
+
+	<script >
+		function widthHeight(){
+			document.getElementById("widthheight").innerHTML = ("w" + window.innerWidth + "______ H:" + window.innerHeight);
+			//everytime the window is refreshed, get the (function widthHeight) value
+			//everytime the window is loaded, the default window size is the value of (function widthHeight)
+
+		}
+			window.onresize = widthHeight;
+			window.onload = widthHeight;
+	</script>
+	<script src="main.js"></script>
+
+</body>
+</html>

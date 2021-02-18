@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Web Design - 5 media queries</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+	</style>
+
+</head>
+
+
+
+<body>
+	
+<div class="imgbox">
+    <img class="center-fit" src='1.jpg'>
+</div>
+ 
+
+<a href="page 2.html" class="buttonNext">Start</a>
+
+
+
+
+
+
+
+	<script >
+		function widthHeight(){
+			document.getElementById("widthheight").innerHTML = ("w" + window.innerWidth + "______ H:" + window.innerHeight);
+			//everytime the window is refreshed, get the (function widthHeight) value
+			//everytime the window is loaded, the default window size is the value of (function widthHeight)
+
+		}
+			window.onresize = widthHeight;
+			window.onload = widthHeight;
+	</script>
+	<script src="main.js"></script>
+
+
+
+
+
+</body>
+</html>
